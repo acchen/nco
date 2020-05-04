@@ -715,7 +715,7 @@ nco_lst_srt_nm_id /* [fnc] Sort name/ID input list numerically or alphabetically
  const nco_bool ALPHABETIZE_OUTPUT) /* I [flg] Alphabetize extraction list */
 {
   /* Purpose: Sort extraction lists numerically or alphabetically */
-  if(ALPHABETIZE_OUTPUT){
+  if(0 && ALPHABETIZE_OUTPUT){
     /* Alphabetize list by variable name
        This produces easy-to-read screen output with ncks */
     qsort(lst,(size_t)nbr_lst,sizeof(lst[0]),nco_cmp_nm_id_nm);

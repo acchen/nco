@@ -234,7 +234,7 @@ main(int argc,char **argv)
 
   md5_sct *md5=NULL; /* [sct] MD5 configuration */
  
-  nco_bool ALPHABETIZE_OUTPUT=True; /* Option a */
+  nco_bool ALPHABETIZE_OUTPUT=False; /* Option a */
   nco_bool CHK_MAP=False; /* [flg] Check map-file quality */
   nco_bool CHK_NAN=False; /* [flg] Check for NaNs */
   nco_bool CPY_GRP_METADATA; /* [flg] Copy group metadata (attributes) */
